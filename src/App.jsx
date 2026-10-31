@@ -21,7 +21,7 @@ export default function App() {
     <Route path={routes.testConsole} element={<TestConsolePage />} />
     <Route path={routes.rules} element={<RulesPage />} />
     <Route path={routes.insights} element={<InsightsPage />} />
-    <Route path={routes.dataLibrary} element={<DataLibraryPage />} />
+    {/* <Route path={routes.dataLibrary} element={<DataLibraryPage />} /> */}
     <Route path="*" element={<NotFoundPage />} />
   </Route></Routes>;
 }

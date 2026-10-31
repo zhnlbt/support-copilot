@@ -5,7 +5,7 @@ import { useConsole } from '../context/ConsoleContext';
 import { dataMode } from '../lib/api';
 import { NavIcon } from './ui';
 const navigation = [
-  ['Queue', routes.queue], ['Review', routes.review], ['Test console', routes.testConsole], ['Rules', routes.rules], ['Insights', routes.insights], ['Data library', routes.dataLibrary],
+  ['Queue', routes.queue], ['Review', routes.review], ['Test console', routes.testConsole], ['Rules', routes.rules], ['Insights', routes.insights],
 ];
 export default function AppLayout() {
   const { pathname } = useLocation();

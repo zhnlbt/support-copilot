@@ -1,0 +1,7 @@
+/queue /index.html 200
+/review /index.html 200
+/review/* /index.html 200
+/test-console /index.html 200
+/rules /index.html 200
+/insights /index.html 200
+/* /index.html 200

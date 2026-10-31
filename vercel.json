@@ -1,0 +1,34 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/queue",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/review",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/review/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/test-console",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/rules",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/insights",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/data",
+      "destination": "/index.html"
+    }
+  ]
+}
